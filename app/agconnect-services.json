@@ -1,0 +1,12 @@
+{
+	"client":{
+		"cp_id":"2640051000001109995",
+		"product_id":"736430079244616693",
+		"client_id":"439512206300677312",
+		"client_secret":"C992CF54770D534CD4D7F828CE55D67E6520CDC70CDC1EE8AE767312F17A90C5",
+		"app_id":"102808711",
+		"package_name":"dev.herovitamin.hms.multiplekits",
+		"api_key":"CgB6e3x9T+PQxdKffS1RiS4spLv4BqbCkDIi5DqkcwCT5xporBfM8pOVckHbYA8fSbbWGU0KCtTJXgqWo4cG29lC"
+	},
+	"configuration_version":"1.0"
+}
