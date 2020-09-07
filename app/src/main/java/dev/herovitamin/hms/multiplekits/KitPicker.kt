@@ -24,6 +24,16 @@ class KitPicker : AppCompatActivity() {
                 )
             }
         })
+        hquic_kit_btn.setOnClickListener(object: View.OnClickListener{
+            override fun onClick(v: View?) {
+                startActivity(
+                    Intent(
+                        this@KitPicker,
+                        HQuicKitActivity::class.java
+                    )
+                )
+            }
+        })
     }
 
 }

@@ -39,4 +39,6 @@ dependencies {
     //Wireless kit dependency
     implementation 'com.huawei.hms:wireless:5.0.1.305'
 
+    //hQuic Kit
+    implementation 'com.huawei.hms:hquic-provider:5.0.0.300'
 }
