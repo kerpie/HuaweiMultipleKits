@@ -13,12 +13,12 @@ import com.huawei.hmf.tasks.OnFailureListener
 import com.huawei.hmf.tasks.OnSuccessListener
 import com.huawei.hms.common.ApiException
 import com.huawei.hms.wireless.*
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_wireless_kit.*
 
 
-class MainActivity : AppCompatActivity() {
+class WirelessKitActivity : AppCompatActivity() {
 
-    private val TAG : String? = MainActivity::class.simpleName
+    private val TAG : String? = WirelessKitActivity::class.simpleName
     private val NETWORK_QOE_INFO_TYPE = 0
 
     private val channelIndex = IntArray(4)
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_wireless_kit)
 
         initValues()
 
