@@ -4,40 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KitPicker"
-    android:padding="20dp">
+    tools:context=".SafetyDetectActivity"
+    android:padding="10dp">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/wireless_kit_btn"
+        android:id="@+id/malicious_list_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="Wireless Kit"
         android:layout_margin="10dp"
+        android:text="Get Malicious apps list"
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/hquic_kit_btn"
+        android:id="@+id/sys_integrity_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/wireless_kit_btn"
+        app:layout_constraintTop_toBottomOf="@+id/malicious_list_btn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="hQuic Kit"
         android:layout_margin="10dp"
+        android:text="Check Root"
         />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/safety_detect_btn"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/safety_message_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/hquic_kit_btn"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/sys_integrity_btn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="Safety Detect Kit"
-        android:layout_margin="10dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

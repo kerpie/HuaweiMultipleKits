@@ -41,4 +41,7 @@ dependencies {
 
     //hQuic Kit
     implementation 'com.huawei.hms:hquic-provider:5.0.0.300'
+
+    //SafetyDetect Kit
+    implementation 'com.huawei.hms:safetydetect:5.0.2.300'
 }
